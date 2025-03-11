@@ -1,0 +1,101 @@
+{
+    "TrustManager SSL Pinning": [
+        "javax/net/ssl/X509TrustManager;->checkServerTrusted",
+        "javax/net/ssl/X509TrustManager;->getAcceptedIssuers",
+        "javax/net/ssl/HostnameVerifier;->verify",
+        "javax/net/ssl/HttpsURLConnection;->setDefaultHostnameVerifier",
+        "javax/net/ssl/X509TrustManager;->checkClientTrusted"
+    ],
+    "OkHttp3 Certificate Pinning": [
+        "com/squareup/okhttp/CertificatePinner;",
+        "okhttp3/CertificatePinner;",
+        "okhttp3/CertificatePinner;->check",
+        "okhttp3/CertificatePinner;->check$okhttp",
+        "okhttp3/OkHttpClient$Builder;->certificatePinner"
+    ],
+    "SSLSocketFactory": [
+        "javax/net/ssl/HttpsURLConnection;->setSSLSocketFactory",
+        "SSLSocketFactory.getDefault()",
+        "javax/net/ssl/HttpsURLConnection"
+    ],
+    "Trustkit Certificate Pinning": [
+        "com/datatheorem/android/trustkit/pinning/OkHostnameVerifier;->verify",
+        "com/datatheorem/android/trustkit/pinning/PinningTrustManager;->checkServerTrusted"
+    ],
+    "Conscrypt TrustManagerImpl Pinning": [
+        "com/android/org/conscrypt/TrustManagerImpl;->checkTrustedRecursive",
+        "com/android/org/conscrypt/TrustManagerImpl;->verifyChain"
+    ],
+    "Appcelerator Certificate Pinning": [
+        "appcelerator/https/PinningTrustManager;->checkServerTrusted"
+    ],
+    "Fabric Certificate Pinning": [
+        "io/fabric/sdk/android/services/network/PinningTrustManager;->checkServerTrusted"
+    ],
+    "Conscrypt OpenSSLSocketImpl Pinning": [
+        "com/android/org/conscrypt/OpenSSLSocketImpl;->verifyCertificateChain"
+    ],
+    "Conscrypt OpenSSLEngineSocketImpl Pinning": [
+        "com/android/org/conscrypt/OpenSSLEngineSocketImpl;->verifyCertificateChain"
+    ],
+    "Apache Harmony OpenSSLSocketImpl Pinning": [
+        "org/apache/harmony/xnet/provider/jsse/OpenSSLSocketImpl;->verifyCertificateChain"
+    ],
+    "PhoneGap Certificate Checker": [
+        "nl/xservices/plugins/sslCertificateChecker;->execute"
+    ],
+    "IBM MobileFirst Certificate Pinning": [
+        "com/worklight/wlclient/api/WLClient;->pinTrustedCertificatePublicKey"
+    ],
+    "IBM WorkLight HostNameVerifier Pinning": [
+        "com/worklight/wlclient/certificatepinning/HostNameVerifierWithCertificatePinning;->verify"
+    ],
+    "Conscrypt CertPinManager Pinning": [
+        "com/android/org/conscrypt/CertPinManager;->checkChainPinning",
+        "com/android/org/conscrypt/CertPinManager;->isChainValid"
+    ],
+    "CWAC-Netsecurity CertPinManager Pinning": [
+        "com/commonsware/cwac/netsecurity/conscrypt/CertPinManager;->isChainValid"
+    ],
+    "Worklight Androidgap Pinning Plugin": [
+        "com/worklight/androidgap/plugin/WLCertificatePinningPlugin;->execute"
+    ],
+    "Netty Fingerprint TrustManager": [
+        "io/netty/handler/ssl/util/FingerprintTrustManagerFactory;->checkTrusted"
+    ],
+    "Squareup Certificate Pinning (OkHTTP<v3)": [
+        "com/squareup/okhttp/CertificatePinner;->check"
+    ],
+    "Squareup OkHostnameVerifier Pinning": [
+        "com/squareup/okhttp/internal/tls/OkHostnameVerifier;->verify"
+    ],
+    "Android WebViewClient SSL Pinning": [
+        "android/webkit/WebViewClient;->onReceivedSslError"
+    ],
+    "Apache Cordova WebViewClient Pinning": [
+        "org/apache/cordova/CordovaWebViewClient;->onReceivedSslError"
+    ],
+    "Boye AbstractVerifier Pinning": [
+        "ch/boye/httpclientandroidlib/conn/ssl/AbstractVerifier;->verify"
+    ],
+    "Apache AbstractVerifier Pinning": [
+        "org/apache/http/conn/ssl/AbstractVerifier;->verify"
+    ],
+    "Chromium Cronet Pinning": [
+        "org/chromium/net/impl/CronetEngineBuilderImpl;->enablePublicKeyPinningBypassForLocalTrustAnchors",
+        "org/chromium/net/impl/CronetEngineBuilderImpl;->addPublicKeyPins"
+    ],
+    "Flutter HttpCertificatePinning": [
+        "diefferson/http_certificate_pinning/HttpCertificatePinning;->checkConnexion"
+    ],
+    "Flutter SslPinningPlugin": [
+        "com/macif/plugin/sslpinningplugin/SslPinningPlugin;->checkConnexion"
+    ],
+    "Xamarin": [
+        "mono/MonoRuntimeProvider;"
+    ],
+    "Custom Certificate Pinning": [
+        "sha256/",
+        "sha1/"
+    ]
+}
