@@ -34,3 +34,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests to e
 
 ## License
 This project is licensed under the MIT License.
+
+Thanks to @akabe1 and @cryptax for some of the ssl pinning pattern. 
+- https://codeshare.frida.re/@akabe1/frida-multiple-unpinning/ 
+- https://github.com/cryptax/droidlysis
